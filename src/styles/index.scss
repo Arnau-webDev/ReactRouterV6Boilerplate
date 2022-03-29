@@ -17,7 +17,13 @@ header {
     }
 }
 
-
 a {
     text-decoration: none;
+}
+
+.active {
+    cursor: default;
+    pointer-events: none;
+    color: darken($color: lightblue, $amount: 40);
+    text-decoration: underline;
 }
